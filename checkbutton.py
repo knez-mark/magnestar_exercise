@@ -15,7 +15,6 @@ def operator_selection_checkbox (possible_operators):
         c = Checkbutton(root, text = possible_operators[i], variable=operator_filter[i])
         c.pack()
 
-    #Was included before but was causing issues, so it was removed
     b = Button(root,text="Done",command=root.destroy)
     b.pack()
     root.mainloop()
