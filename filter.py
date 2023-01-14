@@ -1,3 +1,4 @@
+#Filter csv data based on selected frequency bands and operators
 def find_filtered_indexes (possible_frequency_bands, possible_operators, frequency_band_filter, operator_filter, frequency_band_list, operator_list):
     
     if sum (frequency_band_filter) == 0 and sum (operator_filter) == 0:
